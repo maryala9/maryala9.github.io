@@ -301,7 +301,7 @@ intro
 	right:0;
 	width:50%;
 	height:100%;
-	background:url(../images/bg.jpg);
+	background:url(../images/varma.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
@@ -742,7 +742,7 @@ Facts
 	margin-bottom:80px;
 }
 .parallax-facts{
-	background:url(../images/bg.jpg);
+	background:url(../images/varma.jpg);
 	background-size: cover;
 	background-position: center  ;
 	background-attachment:fixed;
@@ -1402,7 +1402,7 @@ testimonials
 	z-index:1 ;
 }
 .parallax-testimonials{
-	background:url(../images/bg.jpg);
+	background:url(../images/varma.jpg);
 	background-attachment:scroll;
 	background-size: cover;
 	background-position:center;
