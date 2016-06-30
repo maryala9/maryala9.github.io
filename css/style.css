@@ -1442,13 +1442,13 @@ testimonials
 	z-index:0;
 }
 .user-photo{
-	width:200px;
-	height:200px;
+	width:325px;
+	height:193px;
 	border-radius:100%;
 	margin:10px auto;
 	background:#fff;
 	position:relative;
-	border:8px solid #fff;
+	border:0px solid #fff;
 }
 .user-photo img{
 	border-radius:100%;
@@ -2123,7 +2123,7 @@ Color styles
 	border-bottom:2px solid #54BABB;
 }
 .user-photo{
-	border-left:8px solid #54BABB;
+	border-left:0px solid #f3f3f3;
 }
 #services-carusel .owl-next , #project-slider .owl-next , #testimonials .owl-next{background:#54BABB url(../images/sr.png) no-repeat center;}
 #services-carusel .owl-prev ,#project-slider .owl-prev , #testimonials .owl-prev {background:#54BABB url(../images/sl.png) no-repeat center;}
