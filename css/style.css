@@ -141,6 +141,9 @@ Content Styles
 .respimg{
 	width:100%;
 }
+.mySlides {
+	display:none;
+}
 #moody{
 	width:100%;
 	height: 500px;

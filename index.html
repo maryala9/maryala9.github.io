@@ -141,8 +141,10 @@
 					
 					<div class="grid-half right">
 					
-						<div class="photo-holder">
-							<img src="images/photo.jpg" alt="photo of Phaneendra Maryala" class="respimg">
+						<div class="w3-content w3-section photo-holder">
+							<img src="images/photo.jpg" alt="photo of Phaneendra Maryala" class=" mySlides respimg">
+							<img src="images/innovationwin.jpg" alt="photo of Phaneendra Maryala" class=" mySlides respimg">
+							<img src="images/alaska.jpg" alt="photo of Phaneendra Maryala" class=" mySlides respimg">
 						</div>
 					
 					</div>
@@ -570,7 +572,7 @@
 							 
 							
 							
-							<a href="images/Phaneendra_2017_resume.pdf" target="_blank" class="button transition">Download resume</a>
+							<a href="images/Phaneendra_2017_resume-March.pdf" target="_blank" class="button transition">Download resume</a>
 						
 						</div>
 				
@@ -1246,11 +1248,29 @@
 	});
 
 function initChulan() {
+	
+
 
 // functions ------------------
 	"use strict";
 	
 	$('h1.animtext').fitText(1.8,{minFontSize:'20px',maxFontSize:'72px'});
+
+// To Scroll the images automatically
+	var myIndex = 0;
+	carousel();
+
+	function carousel() {
+	    var i;
+	    var x = document.getElementsByClassName("mySlides");
+	    for (i = 0; i < x.length; i++) {
+	       x[i].style.display = "none";  
+	    }
+	    myIndex++;
+	    if (myIndex > x.length) {myIndex = 1}    
+	    x[myIndex-1].style.display = "block";  
+	    setTimeout(carousel, 2000); // Change image every 2 seconds
+	}
 	
 // counter ------------------
 
